@@ -1,0 +1,24 @@
+This is an example repository to demonstrate that org.apache.hadoop.hbase.HBaseTestingUtility
+does not appear to be shutting down correctly.
+
+This assumes you have git installed already.
+
+To replicate
+
+  1) install rvm http://rvm.beginrescueend.com/
+
+     $ bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+
+  2) follow the post-install rvm instructions
+  3) install jruby 1.5.6
+  
+    $ rvm install jruby-1.5.6
+
+  4) Install the repo demostrating the test
+
+    $ git clone git://github.com/collectiveintellect/hadoop-testing-libs.git
+
+  5) Run the test case, it should hang after successfully passing a single test
+
+    $ rake
+
