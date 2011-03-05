@@ -20,5 +20,8 @@ To replicate
 
   5) Run the test case, it should hang after successfully passing a single test
 
+    $ cd hadoop-testing-libs
+      # you will be prompted from rvm about trusting the .rvmrc, go ahead and
+      # accept
     $ rake
 
