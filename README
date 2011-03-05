@@ -25,3 +25,7 @@ To replicate
       # accept
     $ rake
 
+SOLVED
+======
+
+    The failing issue demostrated in this repo was fixed in HBase 0.90.1
